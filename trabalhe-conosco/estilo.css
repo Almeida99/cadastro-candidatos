@@ -1,0 +1,69 @@
+body { height: 100vh ; width: 100%; background-image:url('img/fundo4.jpeg') ; background-size:auto; background-repeat: round; overflow: hidden;
+
+}
+
+
+header {
+        padding: 10px 10px;
+        margin: 10px 10px;
+}
+
+.container-fluid { 
+  height: 70vh;
+        background-color: rgba(0, 0, 0, 0.61);
+        color: #fff;
+        overflow-y: scroll;
+        padding: 20px;
+}
+
+label {
+    /*color: #fff;*/
+    color: black;
+    font-weight: bold;
+
+
+  }
+
+ 
+input[type=submit] {
+        width: 30%;
+        background-color: #faec28;
+        color: black;
+        padding: 10px 20px;
+        margin: 10px 10px;
+        border: none;
+        border-radius:100px;
+        cursor: pointer;
+        font-weight:bold;
+        text-transform: uppercase;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 1.0rem;
+
+        
+      }
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      .objetivo{
+        width: 100%;
+        height:200%;
+        overflow:hidden;
+        font-size:13px;
+        word-break: break-all;
+        background-color: #fff;
+        color: rgb(170, 170, 170);
+        font-weight: bold;
+        font: 15px;
+    }
+    .esquerda{
+      text-align: right;
+    }
+    .loader {
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background: url('img/loader.gif') 50% 50% no-repeat #ebf0f1;
+    }

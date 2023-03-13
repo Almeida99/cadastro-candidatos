@@ -1,0 +1,1 @@
+<?php header("Location:/trabalhe-conosco/index.php"); ?>
