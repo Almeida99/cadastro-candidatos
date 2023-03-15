@@ -77,7 +77,7 @@ while($x1 <= $_POST['empregos']) {
   $motivo =addslashes($_POST[$mv]);
 
   $sql .= "INSERT INTO vagas.cad_emp
-(cad_cv_id, cad_cd_nome_empresa, cad_dt_adimissao, cad_dt_demissao, cad_cargo_ant, cad_motivo_demissao)
+(cad_cv_id, cad_cd_nome_empresa, cad_dt_admissao, cad_dt_demissao, cad_cargo_ant, cad_motivo_demissao)
 VALUES ('$id','$empresa1','$dt_admissao','$dt_demissao','$h_cargo','$motivo');";
 $x1 ++; 
 }
@@ -239,7 +239,7 @@ while($x1 <= $_POST['empregos']) {
   $motivo =addslashes($_POST[$mv]);
 
   $sql .= "INSERT INTO vagas.cad_emp
-(cad_cv_id, cad_cd_nome_empresa, cad_dt_adimissao, cad_dt_demissao, cad_cargo_ant, cad_motivo_demissao)
+(cad_cv_id, cad_cd_nome_empresa, cad_dt_admissao, cad_dt_demissao, cad_cargo_ant, cad_motivo_demissao)
 VALUES ('$id','$empresa1','$dt_admissao','$dt_demissao','$h_cargo','$motivo');";
 
 $x1 ++; 
